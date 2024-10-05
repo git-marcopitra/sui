@@ -2640,6 +2640,7 @@ dependencies = [
  "tempfile",
  "thiserror",
  "tokio",
+ "tokio-stream",
  "tonic 0.11.0",
  "tonic-build",
  "tower",
@@ -5051,9 +5052,9 @@ checksum = "92620684d99f750bae383ecb3be3748142d6095760afd5cbcf2261e9a279d780"
 
 [[package]]
 name = "h2"
-version = "0.3.24"
+version = "0.3.26"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb2c4422095b67ee78da96fbb51a4cc413b3b25883c7717ff7ca1ab31022c9c9"
+checksum = "81fe527a889e1532da5c525686d96d4c2e74cdd345badf8dfef9f6b39dd5f5e8"
 dependencies = [
  "bytes",
  "fnv",
@@ -6692,7 +6693,6 @@ dependencies = [
  "move-proc-macros",
  "move-symbol-pool",
  "once_cell",
- "pathdiff",
  "petgraph 0.5.1",
  "regex",
  "serde",
@@ -6899,6 +6899,7 @@ dependencies = [
  "toml 0.5.10",
  "toml_edit 0.14.4",
  "treeline",
+ "vfs",
  "walkdir",
  "whoami",
 ]
@@ -12784,6 +12785,7 @@ dependencies = [
  "sui-enum-compat-util",
  "sui-json",
  "sui-macros",
+ "sui-package-resolver",
  "sui-protocol-config",
  "sui-types",
  "tabled",
